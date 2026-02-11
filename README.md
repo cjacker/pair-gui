@@ -5,7 +5,7 @@ A lightweight file transfer tool that enables seamless file sharing between mobi
 
 ## Features
 - 📤 **File Upload**: Scan the QR code to upload files to your computer
-- 📥 **File Download**: Scan the QR code to download files to your mobile phone
+- 📥 **File Download**: Scan the QR code to download selected files to your mobile phone
 - ⚡ **Cross-Platform**: Supports Windows, Linux, and macOS
 
 ## Quick Start
@@ -28,7 +28,6 @@ go build
 set CGO_ENABLED=1
 go build -ldflags -H=windowsgui
 ```
-
 > **Note for Windows Compilation**: The `-ldflags -H=windowsgui` parameter hides the console window; remove it if debugging is needed.
 
 ### 2. Usage
