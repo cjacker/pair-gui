@@ -19,12 +19,12 @@ git clone https://github.com/cjacker/pair-gui.git
 cd pair-gui
 
 # Linux/macOS 编译
-go build -o pair-gui main.go
+go build
 
 # Windows 编译（隐藏控制台窗口）
 # 需要安装msys2并安装clang toolchain: pacman -S mingw-w64-clang-x86_64-toolchain
 set CGO_ENABLED=1
-go build -ldflags -H=windowsgui -o pair-gui.exe main.go
+go build -ldflags -H=windowsgui
 ```
 
 > **Windows编译注意**：使用 `-ldflags -H=windowsgui` 参数可隐藏控制台窗口，若需要调试可移除该参数。
