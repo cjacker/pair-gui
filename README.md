@@ -1,7 +1,7 @@
 # Pair-GUI
 A lightweight file transfer tool that enables seamless file sharing between mobile phones and computers by scanning a QR code.
 
-All codes is written by AI without any changes.
+**All codes is written by AI without any changes.**
 
 ## Features
 - 📤 **File Upload**: Scan the QR code to upload files to your computer
