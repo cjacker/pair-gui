@@ -19,12 +19,12 @@ git clone https://github.com/cjacker/pair-gui.git
 cd pair-gui
 
 # Compile for Linux/macOS
-go build -o pair-gui main.go
+go build
 
 # Compile for Windows (hide console window)
 # Requires msys2 installation and install clang toolchain: pacman -S mingw-w64-clang-x86_64-toolchain
 set CGO_ENABLED=1
-go build -ldflags -H=windowsgui -o pair-gui.exe main.go
+go build -ldflags -H=windowsgui
 ```
 
 > **Note for Windows Compilation**: The `-ldflags -H=windowsgui` parameter hides the console window; remove it if debugging is needed.
